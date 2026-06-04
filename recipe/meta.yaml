@@ -1,5 +1,5 @@
 {% set name = "pytest-asdf-plugin" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_asdf_plugin-{{ version }}.tar.gz
-  sha256: 6539e64d3af2f5c4effdb7de0ba47d067b991ee31a8e7c6916d9667f74a08e2d
+  sha256: 40752a7e296d974fde9bf69305a175409f8f5d0765f41edda42e6eaadb3d7088
 
 build:
   noarch: python
